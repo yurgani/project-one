@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"Roboto";
+    src:local("Roboto");
+    src:url(../fonts/Roboto-Bold.ttf);
+   
+}
+@font-face {
+    font-family:"Philosopher";
+    src:local("Philosopher");
+    src:url(../fonts/Philosopher-Regular.ttf)
+}
+
+html{
+    font-family:"Roboto";
+    
+}
+
+
+h1{
+    font-family: "Philosopher";
+
+}
+h2{
+    font-family: "Philosopher";
+}
+
+h3{
+    font-family: "Philosopher";
+}
+
+
+body{
+    background-color: #FFE2b0;
+    
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    text-align: center;
+    padding: 0px;
+}
+
+a{
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+li{
+   display: inline; 
+   margin-right: 100px;
+}
+li:last-child{
+    margin-right: 0px;
+
+}
+
+
+a:hover{
+    color: rgb(255, 255, 255);
+   
+}
+
+.section-mainimg{
+    height: 640px;
+    background-image: url(../img/01-Картинка-фона.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom:20px ;
+}
+
+.section-mainimg__block{
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(190deg,rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8)100%);
+    position: absolute;
+    top: 54%;
+    left: 55%;
+    padding-top:15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.section-mainimg__border{
+    width: 390px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 0% auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    
+    
+}
+
+.section-mainimg__border-text{ 
+    margin: 0px;
+    font-size: 20px;
+    
+}
+.section-mainimg__border-maintxt{
+    margin: 0px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    
+}
+.section-2th{
+    margin-bottom: 20px;
+}
+
+.section-2th__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-2th__icon-box img{
+    margin-right: 76px;
+}
+
+
+.section-2th__icon-box img:last-child{
+    margin-right: 0px;
+}
+
+
+.section-2th__text-box__h2{
+    font-size: 96px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+span{
+    color: #F15840;
+}
+
+.section-2th_deafoult__txt{
+    font-size: 23px;
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+    
+}
+
+.section-3th_titul{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+
+}
+.section-3th{
+    margin-bottom: 20px;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.line{
+    border-top: solid #999999 1px;
+    width: 1024px;
+    margin: 0  auto;
+    margin-bottom: 20px;
+
+}
+footer{
+    height: 80px;
+}
+
+
+
+
+
+  /* анимка при наведении */
+a{
+color: #000000;
+position: relative;
+font-weight: 600;
+display: inline-block;
+text-decoration: none;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+transition: all .3s linear;
+}
+  
+a:hover{
+color: #F15840;
+}
+  
+a:before, a:after{
+content: '';
+background: #F15840;
+position: absolute;
+width: 0;
+height: 2px;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+transition: all .3s linear;
+}
+
+a:before{
+top: 0;
+left: 0;
+}
+  
+a:after{
+top: 100%;
+right: 0;
+}
+  
+a:hover:before, a:hover:after{
+width: 100%;
+}
+
+
